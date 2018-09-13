@@ -1,0 +1,22 @@
+{
+    "name": "wangyongdong/ConcurrentLock",
+    "description": "php lock concurrent",
+    "keywords": ["php", "lock", "concurrent", "redis", "file", "mysql"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "wanggyongdong",
+            "email": "wydchn@gmail.com",
+            "homepage": "https://www.wangyd.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {"Lock\\": "src/Lock"},
+        "files": ["autoload.php"]
+    }
+}
+
